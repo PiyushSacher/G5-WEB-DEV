@@ -1,0 +1,100 @@
+Js in a sync language by default with a feature of async behaviour.
+
+Async code can be made using:
+async-await,promises,callbacks
+
+JS is a single threaded language
+JS is both compiled as well as interpreted language.
+
+
+
+MONOLITH : all code will be in 1 codebase , and on the time of deploying we put code on VPS(virtual private server)
+to increase throughtput and reduce latency we will use HLD and LLD . In LLD , we will improve the code and in HLD we can improve the system configuration or scale our infrastructure. First give priority to LLD.
+
+
+To optimise our latency , we can scale our server.
+Horizontal and vertical scaling:
+
+Vertical scaling: Increasing RAM and Memory of our server
+Horizontal scaling: Increasing the number of servers.
+
+First vertical scaling is done then afterwards horzontal.
+
+
+
+
+JS can be run on
+Browser
+Outside Browser (NodeJS)
+
+
+
+Whenever JS runs , it creates GEC 
+In GEC there are 2 things:
+Memory and Execution
+
+JS code is run in 2 phases.
+Memory space allocation and variable initialization/execution.
+
+
+ref script1.Js
+
+Memory:                                                       execution:
+                                                            console.log(Hello world)   
+a:undefined                                                 a=200    
+abc():abc(){ } //func as it is                              new execution context 
+b:undefined                                                 b=300 and console
+setTimeout                                                  async code goes to different queue
+                                                            console.log("End of program")
+
+
+
+Difference btw var and let 
+var can be redeclared while let cant be redeclared
+var is not strict while let is
+
+
+let ke saath var bnaoge sirf aur uski val print krwaoge toh aayega val unavailable jabki var ke saath undefined aayega.Ye isiliye kyunki let ke saath uska block scope aagya.
+
+Three types of error:
+syntax
+type error
+reference error
+
+
+var a=0239;
+error will come as a number cant start with 0 as js removes starting 0's
+
+
+console.log(a)
+let a=100;
+referenceerror will come
+
+console.log(a);
+var a=100;
+undefined due to hoisting 
+
+Hoisting:declaring all the variable ,functions,class on the top when made with var.
+
+Temporal DeadZone: the period b/w phase 1 and phase 2 is called as temporal deadzone
+
+
+
+
+Functions:
+arrow Functions
+function expression eg:var xyz=()=>{}
+named function
+anonymous fn 
+
+
+
+Lexical Environment and Lexical scope:
+child apna scope dekhega sbse pehle agar nhi mila fir parent ka scope dekhega agar parent mai bhi nhi hai toh grand parent ka scope dekhega and so on.
+
+per grandparent child ya parent ka scope nhi dekh skta.
+
+
+var is global scope but whenever var is wrapped inside { } then it has a scope.
+
+
