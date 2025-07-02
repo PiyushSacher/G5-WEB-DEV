@@ -1,0 +1,6 @@
+hof : a function that takes another function as an argument or return a function.Functions are called first class citizens in js.
+
+
+setTimeout and setInterval are given iby the window object of V8 engine
+setTimeout is used in mainly used in debouncing(jaise hi user gap lega around 2-3 sec toh uska matlab usme apna word type krliya hai aur ye api calls se bachati hai aur isko kehte hai debouncing)
+
