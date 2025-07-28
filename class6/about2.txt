@@ -1,0 +1,32 @@
+prisma is a orm(object relational mapping)
+
+prisma is like a middleman , in which we write normal commands and prsima converts that commands to sql commands and add data in postgresql like moongoose in mongodb
+
+postgresql have a local db known as PGadmin4 like mongodb compass
+neon provide remote postgresql like mongodb atlas
+
+
+prisma like compatible with ts and js and is compatible with mongodb,sql and many other databases
+
+
+
+
+Prisma ORM is an open-source next-generation ORM. It consists of the following parts:
+Prisma Client: Auto-generated and type-safe query builder for Node.js & TypeScript
+
+Prisma Migrate: Migration system
+
+Prisma Studio: GUI to view and edit data in your database.
+
+https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma       
+
+To install prisma CLI
+npm install prisma --save-dev
+
+npx prisma : to invoke prisma cli
+
+npx prisma init --datasource-provider postgresql --output ../generated/prisma: this will generate prisma folder
+in schema.prisma we define all our models
+
+
+PostgreSQL db: neon.tech

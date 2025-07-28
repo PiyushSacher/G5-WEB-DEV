@@ -1,0 +1,17 @@
+we can add anything in mongodb as there is no schema,
+so to make schema , we use mongoose which the the ODM
+
+ODM is a software pattern or library that facilitates the interaction between object-oriented programming languages and NoSQL databases, particularly document-based databases like MongoDB. It functions similarly to an Object-Relational Mapper (ORM) but is specifically designed for document databases rather than relational databases.
+Key aspects of ODM:
+Mapping Objects to Documents:
+ODM allows developers to define and interact with their database data using familiar programming language objects and classes, which are then mapped to documents (typically in JSON-like formats) within the NoSQL database.
+Abstraction Layer:
+It provides an abstraction layer over the direct database commands, allowing developers to perform operations like creating, reading, updating, and deleting documents using object-oriented methods instead of raw database queries.
+Schema Definition (Optional):
+While NoSQL databases are often schema-less, ODMs like Mongoose (for MongoDB) can provide the ability to define schemas for your documents, offering data validation and structure within the application layer.
+Simplifying Development:
+ODMs simplify database interactions for developers working with document databases, making the development process more intuitive and reducing the need to write low-level database-specific code.
+
+ODM-Object data mapping
+
+Mongoose is an Object Data Modeling (ODM) library for MongoDB, specifically designed for use with Node.js. It provides a schema-based solution to model application data, simplifying interactions with MongoDB databases.
