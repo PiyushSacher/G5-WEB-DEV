@@ -1,0 +1,1 @@
+EXPRESS GENERATOR:it generates the application skeleton
